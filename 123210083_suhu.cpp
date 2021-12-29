@@ -12,9 +12,9 @@ int main()
     cout << "\nMasukkan Suhu Celcius : ";
     cin >> c;
 
-    f = (9/5 * c) + 32;
+    f = (c * 9/5) + 32;
     k = 273 + c;
-    r = (4/9 * c) + 32;
+    r = (c * 4/5);
 
     cout << "\n" << c << " C = " << f << " F";
     cout << "\n" << c << " C = " << k << " K";
